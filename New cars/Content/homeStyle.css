@@ -1,0 +1,580 @@
+.homepage {
+    font-family: Roboto;
+    padding-top: 0px;
+}
+
+body {
+    min-height: 100%;
+    height: 100% !important;
+    /*font-family: Verdana !important;*/
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	font-size: 100%;
+	font-weight: inherit;
+	vertical-align: baseline;
+	border: 0 none #000;
+}
+
+#pageWrapper {
+    margin: 0 auto;
+    min-height: 100%;
+    float: left;
+    min-width: 100%;
+        min-height: 100%;
+    height: 100% !important;
+}
+
+.clearfix::after {
+    visibility: hidden;
+    display: block;
+    font-size: 0px;
+    content: " ";
+    clear: both;
+    height: 0px;
+}
+
+.globalHeaderWrapper {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.globalHeaderWrapper {
+    position: relative;
+    background: url("/3_94_304838/resources/img/atcui/header-bg.jpg") no-repeat 0 0;
+}
+
+.headerOrangeGradient {
+    background: #f8991e;
+}
+
+.headerRedGradient {
+    background: #990000;
+}
+
+.homepage .container, .homepage .atcui-grid, .homepage #navContainer, .homepage .globalMasthead {
+    width: 1100px !important;
+    margin: 0 auto;
+    padding-bottom: 0px;
+}
+
+.globalMasthead {
+    height: 60px;
+    width: 990px;
+    margin: 0 auto;
+}
+
+.titleLeft {
+    font-size: 36pt;
+}
+
+.titleRight {
+    font-style: italic;
+    font-size: 18pt;
+}
+
+.titleLink {
+    color: #dff1fd;
+    text-decoration: none;
+}
+
+.loginAndSignup {
+	color: #dff1fd;
+	text-decoration: none
+}
+.loginAndSignup:hover {
+	color: #2a2a2a;
+	text-decoration: none
+}
+
+#navigationContainerWrap {
+    background: #2c2f3b;
+    height: 48px;
+    min-width: 990px;
+
+}
+
+#navContainer {
+    height: 27px;
+    margin: 0 auto;
+    width: 990px;
+    font-family: Roboto;
+}
+
+#navContainer .navMain {
+    width: 990px;
+    background: #2c2f3b;
+}
+
+#navContainer .navMain, #navContainer .atc-header-nav-secondary {
+    list-style-type: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+#navContainer .navMain li:first-child.navItem {
+    border-left: 1px solid #606060;
+}
+
+#navContainer .navMain li.navItem {
+    border-right: 1px solid #606060;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#navContainer .navMain li a span.navItem-text {
+    float: left;
+    display: block;
+    margin-left: 8px;
+    font-family: Roboto;
+}
+
+#navContainer .navMain li, #navContainer .atc-header-nav-secondary li {
+    float: left;
+    height: 48px;
+    list-style-type: none;
+    margin: 0;
+}
+
+#navContainer .navItem {
+    float: left;
+    height: 48px;
+    list-style-type: none;
+    padding: 0 16px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#navContainer .navItem.insurance{
+    float: left;
+    height: 48px;
+    list-style-type: none;
+    padding: 0 14px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#navContainer .navMain li:hover, #navContainer .navMain li a.current {
+    background: #2a2a2a;
+}
+
+
+#navContainer .navMain li:hover a, #navContainer .navMain li a.current {
+    text-decoration: none !important;
+    background: #2a2a2a;
+    color: #d02d32;
+}
+
+
+#navContainer .navMain li a {
+    display: block;
+    line-height: 48px;
+    color: #dff1fd;
+    font-size: 17px;
+    text-align: center;
+    text-shadow: -1px -1px 2px rgba(0,0,0,0.6);
+    width: 100%;
+    text-decoration: none;
+    float: left;
+    height: 48px;
+    font-weight: 300;
+    font-family: Roboto;
+}
+
+.homepage .heroWrapper {
+    margin-top: 0px;
+    background-color: #ccc;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+:first-child.section {
+    margin-top: 0px;
+}
+
+.section {
+    display: block;
+    margin-top: 10px;
+    position: relative;
+}
+
+.homepage #hero {
+    overflow: hidden;
+    min-height: 645px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #666;
+    z-index: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
+    filter: alpha(opacity=00);
+    -moz-opacity: 0.0;
+    -khtml-opacity: 0.0;
+    opacity: 0;
+}
+
+.homepage #banner {
+    height: 645px;
+}
+
+.homepage .findyourCarBadgeWrapper {
+    position: relative;
+    height: 586px;
+    position: relative;
+    z-index: 10;
+    -webkit-transform: translateZ(0);
+    -webkit-overflow-scrolling: touch;
+    top: 0px;
+    left: 0px;
+}
+
+.homepage .findyourCarBadgeBox {
+    padding-left: 20px;
+    background: #333333;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    width: 383px;
+    top: 146px;
+    bottom: 25px;
+    position: absolute;
+    background-color: rgba(50, 50, 50, 0.9);
+    color: #dff1fd;
+}
+
+.homepage .findyourCarBadgeBox .findyourCarBadgeBoxInner {
+	position: absolute;
+	left: 70px;
+	right: 50px;
+	bottom: 73px;
+	top: 10px;
+}
+
+.homepage .findyourCarBadgeBox h1 {
+    margin-bottom: 22px;
+    font-weight: 300;
+    display: block;
+    font-size: 45px;
+}
+
+.homepage .findyourCarBadgeBox .selectionOneMenu {
+    float: none;
+    width: 100%;
+    padding-right: 0px;
+    background-position: right -101px;
+    border: none;
+    background-color: #6c6c6c;
+    height: 42px;
+}
+
+.medium.selectionOneMenu {
+    font-size: 12px;
+    border: solid 1px #d2d2d2;
+}
+
+input[type=text].input1, input[type=email].input1, input[type=password].input1, input[type=tel].input1, input[type=number].input1, input[type=search].input1 {
+    border: solid 1px #cccccc;
+    color: #333333;
+    font: 18px Arial;
+    padding-left: 12px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    overflow: hidden;
+    position: relative;
+    padding: 9px 10px;
+}
+
+.homepage .findyourCarBadgeBox .findyourcar-example {
+    float: none;
+    width: auto;
+    padding: 3px 0 0 10px;
+    height: 27px;
+    display: block;
+}
+
+.homepage .findyourCarBadgeBox .trigger1, .homepage .findyourCarBadgeBox a {
+    color: #dff1fd;
+    cursor: pointer;
+}
+
+.homepage .findyourCarBadgeBox .selectionOneMenu select {
+    color: #ffffff;
+    margin-left: 1px;
+}
+
+.medium.selectionOneMenu .selectionOneMenu-styled {
+    padding: 1px 10px 1px 10px;
+    color: #666;
+}
+
+.homepage .findyourCarBadgeBox input[type=text], .homepage .findyourCarBadgeBox select, .homepage .findyourCarBadgeBox select option {
+    background-color: #6c6c6c;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.selectionOneMenu .selectionOneMenu-styled {
+    border: none;
+    background-color: transparent;
+    background-image: none;
+    box-shadow: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 100%;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 18px;
+    color: #666666;
+    width: 100%;
+}
+
+.selectionOneMenu > select {
+    background: none !important;
+    text-indent: 0.01px;
+    text-overflow: '';
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    border: none;
+    outline: none;
+}
+
+.medium.selectionOneMenu .selectionOneMenu-styled option {
+    padding: 0px 7px;
+    font-size: inherit;
+    border-right: solid 1px #d2d2d2;
+}
+
+.homepage .findyourCarBadgeBox .zipWrapper {
+    margin-top: 20px;
+}
+
+.homepage .findCarBadgeLocation, .flyoutZipcode {
+    float: left;
+}
+
+.homepage .findyourCarBadgeBox input[type='text']:-ms-input-placeholder {
+    color: #fff;
+}
+
+.homepage .findyourCarBadgeBox input.inputZipcode, .flyoutZipcode {
+    margin-top: 0px;
+    width: 75px;
+    padding: 10px 0 11px 12px;
+}
+
+.homepage .findyourCarBadgeBox input.searchInputs, .flyoutMake {
+    margin-top: 0px;
+    width: 300px;
+    padding: 10px 0 11px 12px;
+}
+
+.homepage .findyourCarBadgeBox #advancedSearchOptions2 {
+    margin-top: 19px;
+}
+
+.homepage .findyourCarBadgeBox #advancedSearchOptions2 .detailed-search {
+    height: auto;
+    padding: 0;
+    text-align: right;
+    font-size: 15px;
+    display: block;
+}
+
+.sevo #pageWrapper .headerLeaderboard {
+    background: #b0b0b0;
+    background: -moz-linear-gradient(top, #b0b0b0 85%, #888888 105%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(85%, #b0b0b0), color-stop(105%, #888888));
+    background: -webkit-linear-gradient(top, #b0b0b0 85%, #888888 105%);
+    background: -o-linear-gradient(top, #b0b0b0 85%, #888888 105%);
+    background: -ms-linear-gradient(top, #b0b0b0 85%, #888888 105%);
+    background: linear-gradient(to bottom, #b0b0b0 85%, #888888 105%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b0b0b0', endColorstr='#888888', GradientType=0);
+}
+
+.homepage #flyout_location_capture .flyoutMake {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+.homepage #flyout_location_capture .lorax {
+    width: 150px;
+}
+
+.button1.lorax.search {
+    font-size: 16px;
+}
+
+.button1.lorax {
+    font-size: 14px;
+}
+
+    .homepage .button1.homepagePriceZip {
+        width: 172px;
+        border: none;
+        top: 0;
+        border-radius: 0;
+        height: 42px;
+        float: right;
+    }
+
+.homepage .findyourCarBadgeBox .button1.atcui-primarySuper {
+    width: 165px;
+}
+
+.homepage .findyourCarBadgeBox .button1, #locationPrompt .button1 {
+    margin-left: 20px;
+    width: 164px;
+}
+
+
+/* Social */
+.wrapper#footer-socialBar {
+    background: #1d1d1d;
+    width: 100%;
+    position:relative;
+    bottom:0; right:0
+}
+
+.globalFooterWrapper {
+    background: #2a2a2a;
+    min-width: 100%;
+    float: left;
+    font-family: Roboto;
+    font-weight: 300;
+}
+
+#footer-socialBar div.container {
+    width: 1100px;
+    height: 80px;
+    margin: 0 auto;
+    color: #fff;
+    min-height: 80px;
+    padding: 0;
+}
+
+#footer-socialBar .container ul {
+    list-style: none;
+    padding: 24px 0px 0px 0px;
+    display: block;
+    float: left;
+    font-size: 24px;
+    margin: 0;
+}
+
+#footer-socialBar .container ul li {
+    display: inline-block;
+    padding: 0px 35px 0px 0px;
+}
+
+/* End Social */
+
+/* Bottom of Page */
+/*.bottomFooter {
+    background: #333;
+    height:  219px !important;
+    margin: 0 auto;
+    padding: 0;
+
+    width: 100%;
+    position:absolute;
+    bottom:0; right:0
+}*/
+
+
+.button1 {
+    position: relative;
+    display: block;
+    border: 2px solid;
+    text-decoration: none;
+    color: #fff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    float: left;
+    font-weight: bold;
+    zoom: 1;
+    white-space: nowrap;
+}
+
+    .button1:hover {
+        text-decoration: none !important;
+    }
+
+    .button1.button1.button1 > .button1-hotspot {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        width: 100%;
+        zoom: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+        -moz-opacity: 0;
+        -khtml-opacity: 0;
+        opacity: 0;
+        height: 100%;
+        -webkit-appearance: button;
+    }
+
+    .button1.lorax {
+        color: #fff;
+        background: #990000;
+        text-align: center;
+        height: 42px;
+        font: 18px Roboto, Arial, sans-serif;
+        line-height: 42px;
+        padding: 0 16px 0 16px;
+        border-radius: 0px;
+        border: none;
+    }
+
+    .button1.lorax:hover {
+        color: #fff !important;
+        background: #d02d32 !important;
+        
+    }
+
+    .button1.button1-panel {
+        overflow: hidden;
+    }
+
+.button1-panel > .button1 {
+    margin-right: 5px;
+}
+
+.button1-panel > a {
+    font-size: 12px;
+    padding: 6px 11px;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    float: none;
+}
+
+.button1.lorax.search {
+    background-color: #990000;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer !important;
+}
+
+.homepage .findyourCarBadgeBox .trigger1, .homepage .findyourCarBadgeBox a:hover {
+    text-decoration: none;
+    color: #d02d32;
+    cursor: pointer !important;
+}

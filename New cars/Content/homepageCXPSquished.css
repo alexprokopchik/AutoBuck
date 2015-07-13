@@ -1,0 +1,738 @@
+.bucket3 h2 {
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.bucket3 .beta-box {
+    border: 1px solid #ccc;
+    vertical-align: 4px;
+    margin-left: 5px;
+    padding: 0 3px;
+    color: #ccc;
+}
+
+#quickPollCXP .atcui-radio {
+    width: 100%;
+}
+
+    #quickPollCXP .atcui-radio input[type=radio] + label {
+        font-weight: 700;
+        color: #a8a8a8;
+        height: 30px;
+        line-height: 22px;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+        #quickPollCXP .atcui-radio input[type=radio] + label:hover {
+            color: #000;
+        }
+
+.homepage .findyourCarBadgeWrapper {
+    position: relative;
+    height: 586px;
+    position: relative;
+    z-index: 10;
+    -webkit-transform: translateZ(0);
+    -webkit-overflow-scrolling: touch;
+    top: 0px;
+    left: 0px;
+}
+
+.homepage .findyourCarBadgeBox h1 {
+    margin-bottom: 22px;
+    font-weight: 300;
+    display: block;
+    font-size: 45px;
+}
+
+.homepage .findyourCarBadgeBox .findyourCarBadgeBoxInner {
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    bottom: 73px;
+    top: 10px;
+}
+
+.homepage .findyourCarBadgeBox .findyourcar-example {
+    float: none;
+    width: auto;
+    padding: 3px 0 0 10px;
+    height: 27px;
+    display: block;
+}
+
+.homepage .findCarBadgeLocation, .flyoutZipcode {
+    float: left;
+}
+
+.homepage .findyourCarBadgeBox .button1, #locationPrompt .button1 {
+    margin-left: 20px;
+    width: 164px;
+}
+
+.homepage .findyourCarBadgeBox .zipWrapper {
+    margin-top: 20px;
+}
+
+.homepage .findyourCarBadgeBox input.inputZipcode, .flyoutZipcode {
+    margin-top: 0;
+    width: 75px;
+    padding: 10px 0 11px 12px;
+}
+
+.homepage .findyourCarBadgeBox input[type=text], .homepage .findyourCarBadgeBox select, .homepage .findyourCarBadgeBox select option {
+    background-color: #6c6c6c;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.homepage .findyourCarBadgeBox .selectionOneMenu select {
+    color: #ffffff;
+    margin-left: 1px;
+}
+
+.homepage .findyourCarBadgeBox .selectionOneMenu {
+    float: none;
+    width: 100%;
+    padding-right: 0;
+    background-position: right -101px;
+    border: none;
+    background-color: #6c6c6c;
+    height: 42px;
+}
+
+.homepage .findyourCarBadgeBox .button1.atcui-primarySuper {
+    width: 165px;
+}
+
+.homepage .findyourCarBadgeBox .browseBySeparator {
+    margin: 0 10px;
+}
+
+.homepage .findyourCarBadgeBox #advancedSearchOptions .detailed-search {
+    height: auto;
+    padding: 0;
+    float: none;
+    font-size: 15px;
+    display: block;
+}
+
+.homepage .findyourCarBadgeBox #advancedSearchOptions2 {
+    margin-top: 19px;
+}
+
+    .homepage .findyourCarBadgeBox #advancedSearchOptions2 .browseActions {
+        margin-top: 17px;
+    }
+
+    .homepage .findyourCarBadgeBox #advancedSearchOptions2 .flyoutButton:hover {
+        cursor: pointer;
+    }
+
+    .homepage .findyourCarBadgeBox #advancedSearchOptions2 .flyoutButton:hover {
+        color: #6f787e;
+        border-color: #6f787e;
+    }
+
+    .homepage .findyourCarBadgeBox #advancedSearchOptions2 .flyoutButton .trigger1 {
+        line-height: 10px;
+    }
+
+    .homepage .findyourCarBadgeBox #advancedSearchOptions2 .flyoutButton {
+        display: inline-block;
+        border: 1px solid #fff;
+        height: 60px;
+        width: 140px;
+        vertical-align: top;
+        text-align: center;
+        line-height: 10px;
+    }
+
+    .homepage .findyourCarBadgeBox #advancedSearchOptions2 .detailed-search {
+        height: auto;
+        padding: 0;
+        text-align: right;
+        font-size: 15px;
+        display: block;
+    }
+
+    .homepage .findyourCarBadgeBox #advancedSearchOptions2 .icon {
+        margin: 0 auto 10px auto;
+    }
+
+    .homepage .findyourCarBadgeBox #advancedSearchOptions2 .browseActions .icon1 {
+        font-size: 20px;
+        width: 100%;
+        height: 28px;
+        margin: 10px 5px 0 5px;
+    }
+
+    .homepage .findyourCarBadgeBox #advancedSearchOptions2 .browseByStyle {
+        float: right;
+    }
+
+.homepage .findyourCarBadgeBox .trigger1, .homepage .findyourCarBadgeBox a {
+    color: #dff1fd;
+    cursor: pointer;
+}
+
+    .homepage .findyourCarBadgeBox .trigger1:hover {
+        color: #6f787e;
+        cursor: pointer;
+    }
+
+.homepage .findyourCarBadgeBox .browseBy {
+    margin-top: 35px;
+}
+
+.homepage .findyourCarBadgeBox .browseActions {
+    color: white;
+    font-size: 15px;
+    margin-top: 40px;
+    line-height: 16px;
+}
+
+.homepage .findyourCarBadgeBox {
+    padding-left: 20px;
+    background: #333333;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    width: 383px;
+    top: 146px;
+    bottom: 25px;
+    position: absolute;
+    background-color: rgba(50, 50, 50, 0.9);
+    color: #dff1fd;
+    ;
+}
+
+    .homepage .findyourCarBadgeBox a:hover {
+        color: #6f787e;
+    }
+
+    .homepage .findyourCarBadgeBox input[type="text"]::-moz-placeholder {
+        color: #FFF;
+        opacity: 1;
+    }
+
+    .homepage .findyourCarBadgeBox input[type="text"]::-webkit-input-placeholder {
+        color: #FFF;
+    }
+
+    .homepage .findyourCarBadgeBox input[type="text"]:-moz-placeholder {
+        color: #FFF;
+    }
+
+    .homepage .findyourCarBadgeBox input[type="text"]::-moz-placeholder {
+        color: #FFF;
+    }
+
+    .homepage .findyourCarBadgeBox input[type="text"]:-ms-input-placeholder {
+        color: #FFF;
+    }
+
+.homepage #locationBadgeZipErrorMessage {
+    float: left;
+    margin: 15px 0 0 0;
+}
+
+.onepcssgrid-1000, .onepcssgrid-1200 {
+    margin: 0 auto;
+    padding: 0 0 0 1%;
+}
+
+.onepcssgrid-1200 {
+    max-width: 1220px;
+}
+
+.onepcssgrid-1000 {
+    max-width: 1020px;
+}
+
+.onerow {
+    clear: both;
+    margin: 0 20px;
+}
+
+.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12 {
+    float: left;
+    margin: 0 80px 0 0;
+    position: relative;
+}
+
+    .col1.last, .col2.last, .col3.last, .col4.last, .col5.last, .col6.last, .col7.last, .col8.last, .col9.last, .col10.last, .col11.last, .col12 {
+        margin: 0;
+    }
+
+.col1 {
+    width: 15px;
+}
+
+.col2 {
+    width: 110px;
+}
+
+.col3 {
+    width: 205px;
+}
+
+.col4 {
+    width: 300px;
+}
+
+.col5 {
+    width: 395px;
+}
+
+.col6 {
+    width: 490px;
+}
+
+.col7 {
+    width: 585px;
+}
+
+.col8 {
+    width: 680px;
+}
+
+.col9 {
+    width: 775px;
+}
+
+.col10 {
+    width: 870px;
+}
+
+.col11 {
+    width: 965px;
+}
+
+.col12 {
+    width: 1060px;
+    margin: 0;
+}
+
+    .col1 img, .col2 img, .col3 img, .col4 img, .col5 img, .col6 img, .col7 img, .col8 img, .col9 img, .col10 img, .col11 img, .col12 img {
+        width: auto;
+        height: auto;
+        display: block;
+    }
+
+.homepage {
+    font-family: Roboto;
+    padding-top: 0;
+}
+
+    .homepage .container, .homepage .atcui-grid, .homepage #navContainer, .homepage .globalMasthead {
+        width: 1100px !important;
+        margin: 0 auto;
+        padding-bottom: 0;
+    }
+
+    .homepage .page-content-wrapper {
+        width: 100% !important;
+        background-color: #fff;
+    }
+
+    .homepage .page-content-wrapper, .homepage .atcui-global-footer-wrapper, .homepage .newsAndReviews {
+        position: relative;
+        z-index: 10;
+        -webkit-transform: translate3d(0,0,0);
+    }
+
+    .homepage .content {
+        padding: 0 20px !important;
+    }
+
+    .homepage #bannerAd970x66 {
+        position: absolute;
+        width: 970px;
+        padding: 0px 12px 12px 12px;
+        z-index: 200;
+        left: 50%;
+        margin-left: -485px;
+        margin-top: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .homepage .homepage-banner-ad .ad-text {
+        width: 970px;
+    }
+
+    .homepage .heroWrapper {
+        margin-top: 0;
+        background-color: #ccc;
+        z-index: 0;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .homepage #hero {
+        overflow: hidden;
+        min-height: 645px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #666;
+        z-index: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
+        filter: alpha(opacity=00);
+        -moz-opacity: 0.0;
+        -khtml-opacity: 0.0;
+        opacity: 0.0;
+    }
+
+        .homepage #hero.stretch {
+            width: 100%;
+        }
+
+        .homepage #hero.fixed {
+            position: fixed;
+        }
+
+    .homepage #banner {
+        height: 645px;
+    }
+
+    .homepage .atcui-global-footer-new {
+        z-index: 2000;
+        position: relative;
+    }
+
+        .homepage .atcui-global-footer-new .left-column {
+            width: 768px;
+        }
+
+    .homepage .button1.homepagePriceZip {
+        width: 172px;
+        border: none;
+        top: 0;
+        border-radius: 0;
+        height: 42px;
+        float: right;
+    }
+
+.button1.lorax.search {
+    font-size: 16px;
+}
+
+.button1.lorax {
+    font-size: 14px;
+}
+
+.homepage .atcui-overlay {
+    border: 10px solid #000;
+    border-radius: 0;
+    height: auto;
+    width: auto;
+    overflow: visible;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    padding: 20px;
+}
+
+.homepage #findCarBadge-styleFlyout {
+    padding: 0;
+}
+
+.homepage #locationPrompt h1 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.homepage .atcui-overlay .ui-dialog-titlebar {
+    min-height: 0px;
+    margin-bottom: 0px;
+}
+
+.homepage .atcui-overlay .ui-dialog-titlebar-close {
+    right: -28px;
+}
+
+.homepage #flyout_location_capture .lorax {
+    width: 150px;
+}
+
+.homepage #flyout_location_capture .flyoutZipcode {
+    width: 50px;
+    float: left;
+    margin-right: 20px;
+}
+
+.homepage #flyout_location_capture .flyoutMake {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+.homepage .atcui-overlay .atcui-list-item:first-child .listLabel {
+    margin-top: 0px;
+}
+
+.homepage .atcui-overlay .atcui-list-item .listLabel {
+    margin-top: 20px;
+    display: block;
+    cursor: default;
+}
+
+.homepage .atcui-overlay .column {
+    box-sizing: border-box;
+    height: 482px;
+    width: 118px;
+}
+
+.homepage #findCarBadge-makeFlyout .atcui-list-item {
+    height: 22px;
+}
+
+.homepage .atcui-overlay .atcui-list-item {
+    margin-left: 8px;
+    font-weight: 500;
+}
+
+.homepage .atcui-overlay .column.atcui-list-column:not(:last-child) {
+    border-right: 1px solid #ccc;
+}
+
+.homepage .atcui-overlay .listLabel {
+    color: #888;
+}
+
+.homepage .atcui-overlay .icon1.atcui-remove:before:hover {
+    color: #555;
+}
+
+.homepage .atcui-overlay .icon1.atcui-remove:before {
+    font-size: 24px;
+    color: #fff;
+}
+
+.homepage .atcui-overlay .ui-dialog-titlebar-close {
+    right: -50px;
+    top: -10px;
+    padding: 8px;
+    background: #000;
+    width: 24px;
+    height: 24px;
+    color: #fff;
+}
+
+    .homepage .atcui-overlay .ui-dialog-titlebar-close:before {
+        content: "\e61a";
+        font-size: 24px;
+    }
+
+.homepage .ATCHomepageRow h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    color: #333;
+}
+
+.homepage .ATCHomepageRow h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.homepage .ATCHomepageRow h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: #333;
+}
+
+.homepage .ATCHomepageRow p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.homepage .ATCHomepageRow .ad-title {
+    float: right;
+}
+
+.homepage .ATCHomepageRow .lorax {
+    margin-top: 30px;
+    padding: 0px 32px;
+}
+
+.homepage .ATCHomepageRow .firstRow .lorax, .homepage .ATCHomepageRow .thirdRow .lorax {
+    position: absolute;
+    bottom: 0;
+}
+
+.homepage .ATCHomepageRow:after, .homepage .onerow:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.homepage .ATCHomepageRow .featuredImageWrapper {
+    position: relative;
+    float: left;
+    margin-left: 0px;
+}
+
+.homepage .ATCHomepageRow {
+    padding: 70px 0;
+}
+
+    .homepage .ATCHomepageRow:first-of-type {
+        background: #ECECEC;
+        padding-top: 57px;
+    }
+
+    .homepage .ATCHomepageRow.newsAndReviews {
+        background: #ECECEC;
+    }
+
+    .homepage .ATCHomepageRow .firstRow .col12 {
+        height: 45px;
+        margin-bottom: 30px;
+        margin-left: -3px;
+    }
+
+    .homepage .ATCHomepageRow .firstRow [class^="col"] {
+        height: 185px;
+    }
+
+    .homepage .ATCHomepageRow .firstRow .adEdit {
+        position: absolute;
+        bottom: 14px;
+        left: 120px;
+        font-size: 15px;
+    }
+
+    .homepage .ATCHomepageRow .secondRow [class^="col"]:last-child {
+        margin-top: 42px;
+    }
+
+    .homepage .ATCHomepageRow .thirdRow [class^="col"] {
+        height: 373px;
+    }
+
+    .homepage .ATCHomepageRow .thirdRow .ad-component {
+        margin-top: -15px;
+    }
+
+.homepage [class^="col"]:last-child {
+    margin-right: 0;
+}
+
+.homepage .rowdivider {
+    width: 100%;
+    height: 2px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F6F6F6', endColorstr='#F6F6F6',GradientType=1);
+    background: -webkit-linear-gradient(left, #FFF, #F6F6F6 20%, #F6F6F6 80%, #FFF);
+    background-image: -moz-linear-gradient(90deg, #FFF, #F6F6F6 20%, #F6F6F6 80%, #FFF);
+    background-image: linear-gradient(90deg, #FFF, #F6F6F6 20%, #F6F6F6 80%, #FFF);
+}
+
+.homepage #personalizedRecommendations span {
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: normal;
+}
+
+.homepage #personalizedRecommendations h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.homepage #personalizedRecommendations .loading-placeholder span {
+    display: block;
+    margin-top: 10px;
+    color: #888;
+    font-size: 14px;
+}
+
+.homepage #personalizedRecommendations .loading-placeholder {
+    margin: 60px 0;
+    width: 640px;
+    text-align: center;
+}
+
+.readMoreLinks {
+    font-size: 15px;
+}
+
+    .readMoreLinks .separator {
+        padding: 0px 10px 0px 10px;
+    }
+
+.homepage .ATCHomepageRow.newsAndReviews h2 {
+    margin-bottom: 30px;
+}
+
+.homepage .NCSponsoredText {
+    top: -5%;
+    position: absolute;
+    right: 0;
+    font-weight: 300 !important;
+}
+
+.homepage #navContainer .atc-header-nav-main li.nav-inavMain li.navItem.home, .homepage #atcui-navigation-container .navMain li.navItem.local-dealers, .homepage #atcui-navigation-container .navMain li.navItem.sell-car, .homepage #atcui-navigation-container .navMain li.navItem.trade-in, .homepage #atcui-navigation-container .navMain li.navItem.loans, .homepage #atcui-navigation-container .navMain li.navItem.insurance {
+    width: auto;
+}
+
+.homepage #atcui-navigation-container .navMain {
+    width: 100%;
+}
+
+.homepage #atcui-navigation-container .atc-header-nav-secondary {
+}
+
+.homepage #atcui-navigation-container .navItem.menu-dropdown-arrow {
+    font-size: 14px;
+}
+
+#quickPollCXP .atcui-title {
+    margin-top: 0px;
+    background: none;
+    color: #333;
+    font-size: 26px;
+    font-weight: 300;
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+}
+
+#quickPollCXP .atcui-container {
+    border: 0;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+#quickPollCXP .question {
+    margin: 0px 0px 30px 0px;
+    font-size: 15px;
+}
+
+#quickPollCXP .atcui-chart ul li.atcui-list-item {
+    height: 29px;
+}
+
+#quickPollCXP .atcui-chart .bar, #quickPollCXP .atcui-chart .bar .fill {
+    border-radius: 0;
+}
+
+#quickPollCXP .submit-voteCXP {
+    display: none;
+}

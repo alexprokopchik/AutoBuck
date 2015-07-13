@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=1280" />
+
+    <link href="Content/viewcar.css" rel="stylesheet" />
+
+    <title>Cars</title>
+
+</head>
+<body class="homepage">
+
+    <input type="hidden" id="userZipCode" name="userZipCode" value="" />
+    <div id="pageWrapper" class="clearfix">
+        <div class="headerLeaderboard"></div>
+
+        <div id="globalHeaderWrap" class="globalHeaderWrapper">
+            <div class="headerRedGradient">
+                <div class="globalMasthead">
+                    <div><a href="HomePage.html" style="text-decoration:none;"><span class="titleLink titleLeft">AutoBuck <span class="titleRight">to Make it Worth Your Buck!</span></span></a>
+                    <span style="padding-left: 45%; text-align:right"><a class="loginAndSignup" href = 'Signup.html'>Sign Up</a> | <a class="loginAndSignup" href = 'Login.html'><span class="loginAndSignup">Login</span></a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="navigationContainerWrap">
+                <div id="navContainer" class="container">
+                    <ul class="navMain">
+                        <li class="navItem home">
+                            <a href="HomePage.html" title="Home">Home</a>
+                        </li>
+                        <li class="navItem view-car">
+                            <a href="#" title="Car Database">Car Database</a>
+                        </li>
+                        <li class="navItem add-car">
+                            <a href="#" title="Add a Car">Add a Car</a>
+                        </li>
+                        <li class="navItem add-review">
+                            <a href="#" title="Add a Review">Add a Review</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+<div id="pre-content-marker"></div>
+    <div id="" class="section clearfix   heroWrapper ">
+        <div id="d1" class="atc-hero">
+            <img id="hero" style="opacity: 1" src="Content/Ferrari.jpg" />
+        </div>
+        <div id="banner" class="container">
+          <div id="d2">
+            <div class="findyourCarBadgeWrapper findyourCarImg">
+              <div class="findyourCarBadgeBox">
+                        <div class="findyourCarBadgeBoxInner">
+
+                            <h1>Car Specs                            </h1>
+                            <div id="s41" class="findCarBadgeLocation">
+                                <input id="Car_Make" name="Car_Make" type="text" value="<?php echo $Car['Car_Make']; ?>" maxlength="40" class="searchInputs input1" placeholder="Make" />
+                                <div id="locationPrompt1" class="overlayContent hidden2"></div>
+                                <div class="findyourcar-example"></div>
+                            </div>
+
+                            <div id="s42" class="findCarBadgeLocation">
+                                <input id="Car_Model" style="margin-left:30px" name="Car_Model" type="text" value="<?php echo $Car['Car_Model']; ?>" maxlength="40" class="searchInputs input1" placeholder="Model" />
+                                <div id="locationPrompt1" class="overlayContent hidden2"></div>
+                                <div class="findyourcar-example"></div>
+                            </div>
+
+                            <div id="s42" class="findCarBadgeLocation">
+
+                                <input id="Car_Year" name="Car_Year" type="text" value="<?php echo $Car['Car_Year']; ?>" maxlength="40" class="searchInputs input1" placeholder="Year" />
+                                <div id="locationPrompt1" class="overlayContent hidden2">
+                                </div>
+                                <div class="findyourcar-example">
+
+                                </div>
+                            </div>
+
+                            <div id="s42" class="findCarBadgeLocation">
+                                <input id="Trim" style="margin-left:30px" name="Trim" type="text" value="<?php echo $Car['Trim']; ?>" maxlength="40" class="searchInputs input1" placeholder="Trim" />
+                                <div id="locationPrompt2" class="overlayContent hidden2">
+                                </div>
+                                <div class="findyourcar-example">
+
+                                </div>
+                            </div>
+                            <div id="s42" class="findCarBadgeLocation">
+                                <input id="Horsepower" name="Horsepower" type="text" value="<?php echo $Car['Horsepower']; ?>" maxlength="40" class="searchInputs input1" placeholder="Horsepower" />
+                                <div id="locationPrompt1" class="overlayContent hidden2">
+                                </div>
+                                <div class="findyourcar-example">
+
+                                </div>
+                            </div>
+
+                            <div id="s42" class="findCarBadgeLocation">
+                                <input id="MPG" style="margin-left:30px" name="MPG" type="text" value="<?php echo $Car['MPG']; ?>" maxlength="40" class="searchInputs input1" placeholder="MPG" />
+                                <div id="locationPrompt1" class="overlayContent hidden2">
+                                </div>
+                                <div class="findyourcar-example">
+
+                                </div>
+                            </div>
+                            <div id="s42" class="findCarBadgeLocation">
+                                <input id="Car_Style" name="Car_Style" type="text" value="<?php echo $Car[6]; ?>" maxlength="40" class="searchInputs input1" placeholder="Type" />
+                                <div id="locationPrompt1" class="overlayContent hidden2">
+                                </div>
+                                <div class="findyourcar-example">
+
+                                </div>
+                            </div>
+                            <div id="s42" class="findCarBadgeLocation">
+                                <input id="MSRP" style="margin-left:30px" name="MSRP" type="text" value="<?php echo $Car['MSRP']; ?>" maxlength="40" class="searchInputs input1" placeholder="MSRP" />
+                                <div id="locationPrompt1" class="overlayContent hidden2">
+                                </div>
+                                <div class="findyourcar-example">
+
+                                </div>
+                            </div>
+                            
+                                <!-- Need to be implemented
+                                <label>Enter Car PhotoId:</label>
+                                <input type="text" name="Photo_idPhoto" value="<?php echo $Car['Photo_idPhoto']; ?>" /><br>
+                                -->
+                            <form method='post' action='cars.php?action=update'>
+                                <input type='hidden' name ='Car_Make' value ='<?php echo $Car[1]; ?>'/>
+                                <input type='hidden' name ='Car_ID' value ='<?php echo $Car[0]; ?>'/>
+                                <input type="submit" value="Edit Car" class="button1 lorax  search formSubmit" />   
+                            </form>
+                                
+                                <form method='post' action='cars.php?action=review'>
+                                <input type='hidden' name ='Car_Make' value ='<?php echo $Car[1]; ?>'/>
+                                <input type='hidden' name ='Car_ID' value ='<?php echo $Car[0]; ?>'/>
+                                <input type="submit" style="margin-left:20px" value="Review" class="button1 lorax  search formSubmit" />   
+                            </form>
+                        </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
